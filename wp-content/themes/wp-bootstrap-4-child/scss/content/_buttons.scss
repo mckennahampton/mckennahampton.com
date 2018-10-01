@@ -1,0 +1,22 @@
+﻿.dropdown {
+    &::before {
+        @include triangle("up", 2rem, 1rem, #000000);
+        content: "";
+    }
+}
+
+input[type="button"] {
+    box-shadow: 4px 4px 3px 1px #f2f2f2;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 8px;
+    font-size: 25px;
+    font-family: Geoslab;
+    font-weight: 100;
+    margin: 5px 0px;
+    @include stroke(1px, #000)
+
+    &:hover {
+        cursor: pointer;
+    }
+}
