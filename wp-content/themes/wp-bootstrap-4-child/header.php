@@ -34,7 +34,7 @@
 			</div>
 			<div class="col-xs-12 order-xs-1 col-sm-4 order-sm-2 align-self-center header-logo">
 				<a href="<?php echo site_url(); ?>" alt="Home">
-					<img alt="Logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/Logo Main-01.svg">
+					<img class="logo-tilt" alt="Logo" src="<?php echo get_stylesheet_directory_uri(); ?>/img/Logo Main-01.svg">
 				</a>
 			</div>
 			<div class="hidden-xs-down col-sm-4 header-menu-2 order-sm-3 align-self-end">
