@@ -5,7 +5,6 @@
 @import "content/fonts";
 @import "global/mixins";
 @import "global/variables";
-@import "global/typography";
 @import "global/bootstrap.min";
 @import "hover/hover";
 @import "layerslider.css";
@@ -98,6 +97,8 @@
 @import "content/lists";
 @import "content/product-block";
 @import "content/components";
+@import "content/layerslider";
+@import "global/typography";
 
 @import "forms/checkout";
 @import "forms/item-quantity";

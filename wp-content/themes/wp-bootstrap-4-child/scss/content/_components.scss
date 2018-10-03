@@ -3,3 +3,16 @@
     margin: 10px auto;
     border-top: 1px solid #ccc;
 }
+
+.content-center {
+    text-align: center;
+
+    & > * {
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+.padded {
+    padding: 30px;
+}

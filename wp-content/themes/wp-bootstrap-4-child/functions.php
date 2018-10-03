@@ -43,6 +43,7 @@ wp_register_script('greensock', get_stylesheet_directory_uri() . '/js/greensock.
 wp_register_script('ls-kreaturamedia', get_stylesheet_directory_uri() . '/js/layerslider.kreaturamedia.jquery.js');
 wp_register_script('ls-transitions', get_stylesheet_directory_uri() . '/js/layerslider.transitions.js');
 wp_register_script('tilt', get_stylesheet_directory_uri() . '/js/tilt.jquery.js');
+wp_register_script('svg', get_stylesheet_directory_uri() . '/js/svg.js');
 wp_register_script('scripts', get_stylesheet_directory_uri() . '/js/scripts.js');
 
 
@@ -52,6 +53,7 @@ wp_enqueue_script('ls-transitions','','','',true);
 wp_enqueue_script('ls-kreaturamedia','','','',true);
 wp_enqueue_script('bs-script','','','',true);
 wp_enqueue_script('tilt','','','',true);
+wp_enqueue_script('svg','','','',true);
 wp_enqueue_script('scripts','','','',true);
 
 ?>
