@@ -76,6 +76,7 @@
 .header-logo {
     text-align: center;
 
+
     @include media-breakpoint-down(xs) {
         width: 100%;
         -webkit-box-flex: 0;
@@ -86,7 +87,7 @@
     a {
         display: inline-block;
 
-        img {
+        svg {
 
             margin-top: 15px;
             margin-bottom: 15px;

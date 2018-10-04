@@ -387,25 +387,36 @@ Template Name: Home Page
         </div>
     </div>
 </div>
-<div class="row">
+<div class="row pt-5 pb-3">
     <div class="col-12 content-center padded">
         <h1>Hello, my name is McKenna Hampton.</h1>
     </div>
 </div>
-<div class="light-hr"></div>
 <div class="row justify-content-center">
     <div class="col-xs-12 col-sm-6">
-        <p class="lead">
-            I'm a freelance developer with skills in many areas of creativity. I'm a socialized introvert.
-            My primary focus is on web development projects, but I also can do graphic deisgn, video editing, and
-            audio engineering & production.
-            <div class="light-hr"></div>
-            What I enjoy most is being productively creative. Being able to do quality work in as many areas as possible
-            is my goal, and I never turn down an opprotunity to learn something new.
-        </p>
+        <div class="row align-items-center">
+            <div class="col-xs-12 col-sm-6">
+                <img alt="Profile Picture" src="<?php echo get_stylesheet_directory_uri(); ?>/img/Wedding Profile Pic.jpg" style="width: 100%; height: auto;">
+                <p class="small p-3 text-center">
+                    This was me on my wedding day.
+                    <br></br>
+                    Yes, I am aware that my tie is humorously short. Needless to say, my wife now dresses me better.</p>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <p class="lead">
+                    I'm a freelance developer with skills in many areas of creativity. I'm a socialized introvert.
+                    My primary focus is on web development projects, but I also can do graphic deisgn, video editing, and
+                    audio engineering & production.
+                </p>
+                <div class="light-hr"></div>
+                <p class="lead">What I enjoy most is being productively creative. Being able to do quality work in as many areas as possible
+                    is my goal, and I never turn down an opprotunity to learn something new.
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 <div class="row justify-content-center padded">
-    <a type="button" class="btn btn-outline-primary">Read My Journey</a>
+    <a type="button" href="<?php echo site_url(); ?>/portfolio" class="btn btn-outline-primary">My Portfolio</a>
 </div>
 <?php get_footer(); ?>
