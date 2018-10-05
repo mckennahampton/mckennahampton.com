@@ -27,9 +27,9 @@
 		<div class="row large-menu">
 			<div class="hidden-xs-down order-xs-2 col-sm-4 order-sm-1 header-menu-1 align-self-end">
 				<ul>
-					<li><a class="hvr-sweep-to-left" href="/my-journey" alt="Web Journey">My Journey</a></li><!--
-					--><li><a class="hvr-sweep-to-left" href="/portfolio" alt="Portfolio">Portfolio</a></li><!--
-					--><li><a class="hvr-sweep-to-left" href="/get-a-quote" alt="Get a Quote">Get a Quote</a></li>
+					<li><a class="hvr-sweep-to-left" href="<?php echo site_url(); ?>/my-journey" alt="Web Journey">My Journey</a></li><!--
+					--><li><a class="hvr-sweep-to-left" href="<?php echo site_url(); ?>/portfolio" alt="Portfolio">Portfolio</a></li><!--
+					--><li><a class="hvr-sweep-to-left" href="<?php echo site_url(); ?>/get-a-quote" alt="Get a Quote">Get a Quote</a></li>
 				</ul>
 			</div>
 			<div class="col-xs-12 order-xs-1 col-sm-4 order-sm-2 align-self-center header-logo">
@@ -92,9 +92,9 @@
 			</div>
 			<div class="hidden-xs-down col-sm-4 header-menu-2 order-sm-3 align-self-end">
 				<ul>
-					<li><a class="hvr-sweep-to-right" href="/releases" alt="Releases">Releases</a></li><!--
-					--><li><a class="hvr-sweep-to-right" href="/my-process" alt="My Process">My Process</a></li><!--
-					--><li><a class="hvr-sweep-to-right" href="/blog" alt="Blog">Blog</a></li>
+					<li><a class="hvr-sweep-to-right" href="<?php echo site_url(); ?>/my-music" alt="My Music">My Music</a></li><!--
+					--><?php /*<li><a class="hvr-sweep-to-right" href="<?php echo site_url(); ?>/my-process" alt="My Process">My Process</a></li><!-- 
+					--> <li><a class="hvr-sweep-to-right" href="<?php echo site_url(); ?>/blog" alt="Blog">Blog</a></li> */ ?>
 				</ul>
 			</div>
 		</div>
@@ -102,12 +102,12 @@
 		<div class="row mobile-menu py-2">
 			<div class="collapse" id="mobileNavbar">
 				<ul>
-					<li><a class="hvr-sweep-to-left" href="/my-journey" alt="Web Journey">My Journey</a></li>
-					<li><a class="hvr-sweep-to-left" href="/portfolio" alt="Portfolio">Portfolio</a></li>
-					<li><a class="hvr-sweep-to-left" href="/get-a-quote" alt="Get a Quote">Get a Quote</a></li>
-					<li><a class="hvr-sweep-to-right" href="/releases" alt="Releases">Releases</a></li>
-					<li><a class="hvr-sweep-to-right" href="/my-process" alt="My Process">My Process</a></li>
-					<li><a class="hvr-sweep-to-right" href="/blog" alt="Blog">Blog</a></li>
+					<li><a class="hvr-sweep-to-left" href="<?php echo site_url(); ?>/my-journey" alt="Web Journey">My Journey</a></li>
+					<li><a class="hvr-sweep-to-left" href="<?php echo site_url(); ?>/portfolio" alt="Portfolio">Portfolio</a></li>
+					<li><a class="hvr-sweep-to-left" href="<?php echo site_url(); ?>/get-a-quote" alt="Get a Quote">Get a Quote</a></li>
+					<li><a class="hvr-sweep-to-right" href="<?php echo site_url(); ?>/my-music" alt="My Music">My Music</a></li>
+					<?php /* <li><a class="hvr-sweep-to-right" href="<?php echo site_url(); ?>/my-process" alt="My Process">My Process</a></li>
+					<li><a class="hvr-sweep-to-right" href="<?php echo site_url(); ?>/blog" alt="Blog">Blog</a></li> */?>
 				</ul>
 			</div>
 			<nav class="navbar-light">

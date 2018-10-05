@@ -15,10 +15,10 @@
 
 
 </div><!-- #page -->
-<footer>
+<footer class="p-4">
 	<div class="row p-2 p-sm-5 align-items-center justify-content-center">
 		<div class="footer-logo">
-		<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4691.35 1821.28">
+		<svg class="py-2" style="width: 100%;" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4691.35 1821.28">
 			<defs>
 				<style>
 				.footer-1 {

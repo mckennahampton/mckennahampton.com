@@ -79,6 +79,9 @@ $table_prefix  = 'wp_';
  */
 define('WP_DEBUG', false);
 
+define( 'WPMS_ON', true );
+define( 'WPMS_SMTP_PASS', 'HackyS@ck1995' );
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
