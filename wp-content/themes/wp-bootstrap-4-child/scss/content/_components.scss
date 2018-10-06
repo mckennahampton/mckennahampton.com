@@ -1,4 +1,12 @@
-﻿.light-hr {
+﻿body {
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.light-hr {
     width: 90%;
     margin: 10px auto;
     border-top: 1px solid #ccc;

@@ -25,6 +25,18 @@ get_header();
                 I work with the Adobe Creative Cloud, first making mockups of the UI in XD. I then work on the graphics
                 and logos in Illustrator & Photoshop (I'm not expert-level in graphic design, but I know my way around).
                 I've also worked with Premiere for years for personal projects.
+                <div class="hr-light"></div>
+                It's important to not just write clean code. Modern websites are essentially public, cloud-based software,
+                and it should behave as such. Whether it's a one-page landing site, or an enterprise-level e-commerce site,
+                the UI needs to be as polished and easy to use as possible. That's why I use Bootstrap for the layout, and I
+                use SASS to speed styling up (it also really helps to keep your styles organized).
+                <br></br>
+                In addition, the backend is the core of any software, and it's critial to have a sustainable, scalable,
+                consistent scructure. This is where frameworks are extrememly useful. For most open-source projects, I
+                use WordPress. I don't buy a premium theme and up-charge my client for installing it; that's gross. I
+                start with a clean install of a basic theme skeleton, and I use the WP-MVC plugin. I'm usually against
+                plugins, as they're almost always messy, and rarely are they kept up to date. However, WP-MVC simply
+                overlays an MVC-OOP framework on top of WordPress, making rapid development possible and easy to keep clean.
                 <div class="light-hr"></div>
                 I have experience with the following technologies:
                 <br></br>
@@ -103,11 +115,11 @@ foreach ($portfolios as $portfolio) { ?>
 
     <div class="col-xs-12 col-sm-6 portfolio-block">
         <div class="row align-items-center">
-            <div class="col-xs-12 col-sm-6 portfolio-img">
+            <div class="col-xs-12 col-sm-6 my-4 portfolio-img">
                 <img src="<?php echo get_stylesheet_directory_uri() . $portfolio->client_logo; ?>" alt="Client Logo"/>
                 <?php if (!empty($portfolio->this_site_url)) { ?>
                     <br></br>
-                    <a type="button" target="_blank" href="<?php echo $portfolio->this_site_url; ?>" class="btn py-2 my-4 btn-outline-primary">View Site</a>
+                    <a type="button" target="_blank" href="<?php echo $portfolio->this_site_url; ?>" class="btn py-2 my-2 btn-outline-primary">View Site</a>
                 <?php } ?>
             </div>
             <div class="col-xs-12 col-sm-6 portfolio-text">

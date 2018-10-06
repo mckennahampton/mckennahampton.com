@@ -21,6 +21,11 @@ input[type="button"] {
     }
 }
 
+.btn, .btn-outine-* {
+    background-image: none;
+    filter: none;
+}
+
 .btn-outline-*:hover {
     color: #fff!important;
 }

@@ -20483,8 +20483,19 @@ input[type="button"] {
   input[type="button"]:hover {
     cursor: pointer; }
 
+.btn, .btn-outine-* {
+  background-image: none;
+  -webkit-filter: none;
+  filter: none; }
+
 .btn-outline-*:hover {
   color: #fff !important; }
+
+body {
+  overflow-x: hidden; }
+
+html {
+  overflow-x: hidden; }
 
 .light-hr {
   width: 90%;
@@ -20647,6 +20658,9 @@ footer {
         .header-logo a svg {
           width: 250px;
           height: auto; } }
+
+.mobile-menu ul {
+  padding-left: 0; }
 
 .mobile-menu #mobileNavbar {
   width: 100%;
