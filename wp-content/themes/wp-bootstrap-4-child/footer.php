@@ -73,7 +73,7 @@
 			</svg>
 		</div>
 	</div>
-	<div class="row p-1 align-items-center justify-content-center">
+	<div class="row px-4 py-2 align-items-center justify-content-center">
 		<div class="footer-info">
 			&copy; <?php echo date('Y'); ?> McKenna Hampton. All Rights Reserved.
 		</div>

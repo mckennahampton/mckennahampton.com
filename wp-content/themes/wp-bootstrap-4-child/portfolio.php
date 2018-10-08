@@ -21,24 +21,27 @@ get_header();
 
 <div class="row p-5 justify-items-center align-contents-center">
     <div class="content-block text-center">
-            <p>
+            <p class="lead text-left">
                 I work with the Adobe Creative Cloud, first making mockups of the UI in XD. I then work on the graphics
                 and logos in Illustrator & Photoshop (I'm not expert-level in graphic design, but I know my way around).
                 I've also worked with Premiere for years for personal projects.
-                <div class="hr-light"></div>
+            </p>
+            <div class="hr-light"></div>
+            <p class="lead text-left">
                 It's important to not just write clean code. Modern websites are essentially public, cloud-based software,
                 and it should behave as such. Whether it's a one-page landing site, or an enterprise-level e-commerce site,
                 the UI needs to be as polished and easy to use as possible. That's why I use Bootstrap for the layout, and I
                 use SASS to speed styling up (it also really helps to keep your styles organized).
                 <br></br>
                 In addition, the backend is the core of any software, and it's critial to have a sustainable, scalable,
-                consistent scructure. This is where frameworks are extrememly useful. For most open-source projects, I
-                use WordPress. I don't buy a premium theme and up-charge my client for installing it; that's gross. I
-                start with a clean install of a basic theme skeleton, and I use the WP-MVC plugin. I'm usually against
+                consistent scructure. This is where frameworks are extrememly useful. For open-source projects, I
+                use WordPress. I start with a clean install of a basic theme skeleton, and I use the WP-MVC plugin. I'm usually against
                 plugins, as they're almost always messy, and rarely are they kept up to date. However, WP-MVC simply
                 overlays an MVC-OOP framework on top of WordPress, making rapid development possible and easy to keep clean.
-                <div class="light-hr"></div>
-                I have experience with the following technologies:
+            </p>
+            <div class="light-hr"></div>
+            <p class="laed text-center">
+                I work with the following technologies:
                 <br></br>
                 LAMP - PHP7 - MySQL - Javascript/Jquery/AJAX/JSON/API's
                 <br></br>
@@ -48,7 +51,7 @@ get_header();
             <button type="button" class="btn m-3 btn-outline-primary" data-toggle="modal" data-target="#resume">
                 Resume
             </button>
-            <button type="button" class="btn m-3 btn-outline-primary" data-toggle="modal" data-target="#predictive-index">
+            <button type="button" class="btn my-3 mx-xs-1 mx-sm-3 btn-outline-primary" data-toggle="modal" data-target="#predictive-index">
                 Predictive Index Report
             </button>
             <br>
@@ -84,7 +87,7 @@ get_header();
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="resumeLabel">My resume</h5>
+                            <h5 class="modal-title" id="resumeLabel">Predictive Idex</h5>
                             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                             </button>
@@ -102,6 +105,8 @@ get_header();
         </div>
     </div>
 </div>
+
+<div class="light-hr"></div>
 
 <?php
 $portfolio_model = mvc_model('Portfolio');

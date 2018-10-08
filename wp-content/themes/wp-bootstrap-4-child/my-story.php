@@ -23,19 +23,18 @@ get_header();
 <div class="row p-5 justify-items-center">
         <div class="content-block">
             <h1>Education</h1>
-            <p>
+            <p class="lead">
                 I was born and raised in Guthrie, Oklahoma. I was homeschooled, and at 8th grade
                 I was essentially self taught. My parents got good slef-teaching books, and I made my
-                own schedule. In the winter of 2012, I got a 30 on the SAT test, and my parents considered
-                me graduated.
+                own schedule. In the winter of 2012, I got a 30 on the SAT test, and I officially graduated.
             </p>
 
             <div class="light-hr"></div>
 
             <h1>Work History</h1>
-            <p>Right after I took the SAT test, I started working full-time at my family's company,
-                Magic Bait. I'd worked there in the summers for a few years prior. I was a general
-                labor hand, helping with production.
+            <p class="lead">
+                I've worked at Magic Bait in the summers since I was 14, and I've been there full time
+                since i graduated.
                 <br></br>
                 In 2014, the company website was horrifically outdated. It was an old server package
                 that was essentially just a catalog listing, and you <span class="font-italic">had to
@@ -53,10 +52,10 @@ get_header();
                 returned the smallest box necessary to ship an individual order.
                 <br></br>
                 I've taken a few freelance jobs on the side, utilizing WordPress to deliver clean, turn-key websites.
-                My job duties at Magic Bait have evolved into being full-time production manager, responsible for
-                product mixing, warehouse inventory, employee training & management, equipment cleaning & maintinence,
-                and whatever else comes up. I am still in charge of the company website, but I haven't had the time I'd
-                prefer to really keep it up to date. This is why I decided to take up a new project: Magic Bait 2.0
+                As the production manager in a family company, I wear many hats on any given day, from product mixing,
+                warehouse inventory, employee training & management, equipment cleaning & maintinence, and whatever else
+                comes up. I am still in charge of the company website, which I usually take care of when I'm nice and comfy
+                in my 'jamas.
                 <br></br>
                 I am currently building a brand-new version of the company website in ASP.NET/C#. Since this is a new
                 language for me, I'm using nopCommerce as the e-commerce engine, which was just updated to v4.1, using
@@ -66,7 +65,7 @@ get_header();
             <div class="light-hr"></div>
 
             <h1>About Me</h1>
-            <p>
+            <p class="lead">
                 I'm <?php echo $age; ?> years old, live in Guthrie, OK with my wife Hannah.
                 <br></br>
                 I'm a craftsman who enjoys being productively creative, and creatively productive. I'm a very quick learner

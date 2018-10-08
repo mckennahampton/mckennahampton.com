@@ -403,8 +403,8 @@ Template Name: Home Page
                     Yes, I am aware that my tie is humorously short. Needless to say, my wife now dresses me better.</p>
             </div>
             <div class="col-xs-12 px-5 col-sm-6">
-                <p class="lead">
-                    I'm a freelance developer with skills in many areas of creativity. I'm a socialized introvert.
+                <p>
+                    I'm a freelance developer with skills in many areas of creativity.
                     My primary focus is on web development projects, but I also can do graphic deisgn, video editing, and
                     audio engineering & production.
                 </p>
